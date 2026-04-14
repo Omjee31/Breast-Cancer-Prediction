@@ -3,13 +3,22 @@ import pickle
 import numpy as np
 import pandas as pd
 
-# Load model & scaler
+import os
+
 @st.cache_resource
 def load_model():
-    with open("model.pkl", "rb") as f:
+    # Get the directory where app.py is located
+    base_path = os.path.dirname(os.path.abspath(__file__))
+    
+    model_path  = os.path.join(base_path, "model.pkl")
+    scaler_path = os.path.join(base_path, "scaler.pkl")
+
+    with open(model_path, "rb") as f:
         model = pickle.load(f)
-    with open("scaler.pkl", "rb") as f:
+
+    with open(scaler_path, "rb") as f:
         scaler = pickle.load(f)
+
     return model, scaler
 
 model, scaler = load_model()
