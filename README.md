@@ -7,6 +7,16 @@ This project uses a Support Vector Machine (SVM) model to classify breast cancer
 - 🔥 Recall (Malignant): **100%**
 - ⚠️ False Negatives: **0 (No missed cancer cases)**
 
+## 🚀 Live Demo
+[![Live Demo](https://img.shields.io/badge/Live-Demo-green?style=for-the-badge)]([https://your-app-link.com](https://omjee31-breast-cancer-prediction-app-y8zbxs.streamlit.app/))
+
+## 📸 Screenshots
+
+<p align="center">
+  <img src="images/img1.png" width="30%" />
+  <img src="images/img2.png" width="30%" />
+  <img src="images/img3.png" width="30%" />
+</p>
 ## 📌 Key Highlights
 - Implemented Support Vector Machine (SVM) for classification
 - Applied data preprocessing and feature scaling
