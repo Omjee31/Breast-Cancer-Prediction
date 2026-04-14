@@ -13,9 +13,9 @@ This project uses a Support Vector Machine (SVM) model to classify breast cancer
 ## 📸 Screenshots
 
 <p align="center">
-  <img src="images/img1.png" width="20%" />
-  <img src="images/img2.png" width="40%" />
-  <img src="images/img3.png" width="30%" />
+  <img src="images/img.png" width="30%" />
+  <img src="images/img2.png" width="20%" />
+  <img src="images/img3.png" width="40%" />
 </p>
 ## 📌 Key Highlights
 - Implemented Support Vector Machine (SVM) for classification
