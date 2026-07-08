@@ -20,7 +20,6 @@ This project uses a Support Vector Machine (SVM) model to classify breast cancer
 ## 🚀 Live Demo
 [![Live Demo](https://img.shields.io/badge/Live-Demo-green?style=for-the-badge)](https://omjee31-breast-cancer-prediction-app-y8zbxs.streamlit.app/)
 
-👉 https://omjee31-breast-cancer-prediction-app-y8zbxs.streamlit.app/
 
 ---
 
